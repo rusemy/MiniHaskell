@@ -24,6 +24,6 @@ package haskell;
  */
 public enum Type {
 
-	Integer, Boolean, Error;
+	Integer, Boolean, Error, Empty_List, List;
 	
 }

@@ -140,5 +140,10 @@ public class PrettyPrinter implements Visitor{
 		exp.exp.accept(this);
 		System.out.print(")");
 	}
+	public void visit(ValueList exp) {
+		System.out.print("[");
+		System.out.print(exp.getIndex());
+		System.out.print("]");
+	}
 
 }

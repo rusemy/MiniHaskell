@@ -26,5 +26,5 @@ public interface Visitor {
 	public void visit(ExpressionOR exp);
 	public void visit(ExpressionNOT exp);
 	public void visit(ExpressionEqual exp);
-	public void visit(ExpressionBin exp);
+	public void visit(ValueList exp);
 }
